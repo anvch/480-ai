@@ -178,8 +178,8 @@ def main():
     for i in path:
         print(i)
 
-    print("Nodes Generated: ", generated)
-    print("Nodes Expanded: ", expanded)
+    print(f"{generated} nodes generated")
+    print(f"{expanded} nodes expanded")
 
 if __name__ == "__main__":
     main()
